@@ -80,3 +80,45 @@
   padding: 1rem;
 
 }
+
+
+/*  ESTOS SON LOS ESTILOS RESPONSIVE SOLO PARA TELEFGONOS MOVILES  */
+
+@media only screen and (max-width: 375px) {
+
+  .card__container{
+
+  }
+
+  .card__text{
+height: 700px;
+width: 600px;
+  }
+
+  .card__text>p{
+    font-size: 2rem;
+  }
+
+.card__text>h3{
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+  .card__Button{
+    position: absolute;
+    bottom: -66%;
+  }
+
+  .card__Button>button{
+    
+  }
+
+  .card__Button>button>img{
+    padding: 2.5rem;
+
+    width: 8.5rem;
+  
+  }
+
+
+
+}
