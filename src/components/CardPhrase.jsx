@@ -12,7 +12,7 @@ const CardPhrase = ({frase, btn, id}) => {
           <img src="./src/images/pattern-divider-desktop.svg" alt="" />
         </div>
         <div className="card__Button">
-            <button onClick={btn}><img src="./src/images/icon-dice.svg" alt="" /></button>
+            <button onClick={btn}><img src="./images/icon-dice.svg" alt="" /></button>
         </div>
       </div>
     </div>
